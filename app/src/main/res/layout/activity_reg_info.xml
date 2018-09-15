@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegInfoActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bgpattern">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="-45dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"/>
+
+    <EditText
+        android:id="@+id/createPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Create Password"/>
+
+    <EditText
+        android:id="@+id/enterCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:backgroundTint="#585858"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:background="@drawable/roundbutton"/>
+
+</LinearLayout>
